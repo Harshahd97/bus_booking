@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                sh 'rm -rf Parcel-service'
+                sh 'rm -rf bus_booking'
                 sh 'git clone https://github.com/Harshahd97/bus_booking.git'
             }
         }
